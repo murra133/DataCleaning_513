@@ -1,4 +1,4 @@
-# DataCleaning_513
+# Food Inspection Data Cleaning
 
 The purpose of this repository is to show the steps taken to clean the Food_Inspections.csv into a format that will allow a user to see the violations of each facility, by removing and cleaning all other data. Below is the Workflow used:
 
