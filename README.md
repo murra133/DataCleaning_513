@@ -7,6 +7,6 @@ The purpose of this repository is to show the steps taken to clean the Food_Insp
 
 
 ## Files
-YesWorkFlowScript.py <- Script to create Workflow Diagram
-Food-Inspections.openrefine.targz <- Scipt housing the cleaned Open Refine Project for Food Inspections
-DataCleaning.py <- Script to further clean data and reformat into desired output
+YesWorkFlowScript.py <- Script to create Workflow Diagram <br />
+Food-Inspections.openrefine.targz <- Scipt housing the cleaned Open Refine Project for Food Inspections <br />
+DataCleaning.py <- Script to further clean data and reformat into desired output <br />
