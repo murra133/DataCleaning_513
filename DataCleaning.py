@@ -4,7 +4,7 @@ import re
 
 
 # Load CSV file #
-df = pd.read_csv('Food_Inspections_Cleaned.csv',skiprows=[1,4])
+df = pd.read_csv('Food-Inspections_Cleaned.csv',skiprows=[1,4])
 
 # Regex for Data curation #
 re_ = '[^[a-zA-Z0-9][1-9][0-9]?\.\s]*'
@@ -54,7 +54,6 @@ for j in range(1,len(df['Cleaned_Violations'])):
 
 # Create new dataframe with data, output to csv #
 new_df = pd.DataFrame(data = tempList, columns=columns)
-print(new_df)
 compression_opts = dict(method='zip',
-                        archive_name='facility_violations.csv')  
-new_df.to_csv('facility_violations.zip',index=False, compression=compression_opts)
+                        archive_name='out.csv')  
+new_df.to_csv('Food_Inspection_Facility_Violations.zip',index=False, compression=compression_opts)
