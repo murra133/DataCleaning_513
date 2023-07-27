@@ -1,0 +1,965 @@
+[
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Facility Type",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Grocery & Restaurant",
+            "GROCERY& RESTAURANT",
+            "grocery & restaurant",
+            "GROCERY/ RESTAURANT",
+            "GROCERY & RESTAURANT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Grocery & Restaurant"
+        },
+        {
+          "from": [
+            "CONVENIENCE STORE",
+            "convenience store",
+            "(convenience store)",
+            "Convenience Store"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Convenience Store"
+        },
+        {
+          "from": [
+            "coffee shop",
+            "COFFEE SHOP",
+            "Coffee shop",
+            "COFFEE  SHOP"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Coffee Shop"
+        },
+        {
+          "from": [
+            "GAS STATION",
+            "gas station",
+            "(gas station)",
+            "Gas station"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Gas Station"
+        },
+        {
+          "from": [
+            "CAFETERIA",
+            "Cafeteria",
+            "cafeteria"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Cafeteria"
+        },
+        {
+          "from": [
+            "dollar store",
+            "DOLLAR STORE",
+            "Dollar store"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Dollar Store"
+        },
+        {
+          "from": [
+            "BANQUET HALL",
+            "Banquet Hall",
+            "banquet hall"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Banquet Hall"
+        },
+        {
+          "from": [
+            "TAVERN",
+            "tavern",
+            "Tavern"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Tavern"
+        },
+        {
+          "from": [
+            "NIGHT CLUB",
+            "night club"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Night Club"
+        },
+        {
+          "from": [
+            "FOOD PANTRY",
+            "Food Pantry"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Food Pantry"
+        },
+        {
+          "from": [
+            "BAR",
+            "bar"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Bar"
+        },
+        {
+          "from": [
+            "AFTER SCHOOL PROGRAM",
+            "after school program"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "After School Program"
+        },
+        {
+          "from": [
+            "SOCIAL CLUB",
+            "Social Club"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Social Club"
+        },
+        {
+          "from": [
+            "cooking school",
+            "COOKING SCHOOL"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Cooking School"
+        },
+        {
+          "from": [
+            "Long Term Care",
+            "LONG TERM CARE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Long Term Care"
+        },
+        {
+          "from": [
+            "CHURCH KITCHEN",
+            "Church Kitchen"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Church Kitchen"
+        },
+        {
+          "from": [
+            "GROCERY",
+            "grocery"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Grocery"
+        },
+        {
+          "from": [
+            "ASSISTED LIVING",
+            "Assisted Living"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Assisted Living"
+        },
+        {
+          "from": [
+            "FITNESS CENTER",
+            "fitness center"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Fitness Center"
+        },
+        {
+          "from": [
+            "unlicensed facility",
+            "UNLICENSED FACILITY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Unlicensed Facility"
+        },
+        {
+          "from": [
+            "PRIVATE SCHOOL",
+            "Private School"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Private School"
+        },
+        {
+          "from": [
+            "MOBILE FROZEN DESSERT VENDOR",
+            "Mobile frozen dessert vendor"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Mobile Frozen Dessert Vendor"
+        },
+        {
+          "from": [
+            "Restaurant",
+            "restaurant"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Restaurant"
+        },
+        {
+          "from": [
+            "Long Term Care Facility",
+            "LONG TERM CARE FACILITY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Long Term Care Facility"
+        },
+        {
+          "from": [
+            "BANQUET",
+            "Banquet"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Banquet"
+        },
+        {
+          "from": [
+            "weight loss program",
+            "WEIGHT LOSS PROGRAM"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Weight Loss Program"
+        },
+        {
+          "from": [
+            "Children's Services Facility",
+            "CHILDRENS SERVICES FACILITY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Children's Services Facility"
+        },
+        {
+          "from": [
+            "CONVENIENCE",
+            "convenience"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Convenience"
+        },
+        {
+          "from": [
+            "WAREHOUSE",
+            "warehouse"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Warehouse"
+        },
+        {
+          "from": [
+            "TAVERN-LIQUOR",
+            "TAVERN/LIQUOR"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Tavern-Liquor"
+        },
+        {
+          "from": [
+            "School",
+            "SCHOOL"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "School"
+        },
+        {
+          "from": [
+            "Ice cream",
+            "ICE CREAM"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Ice-cream"
+        },
+        {
+          "from": [
+            "CANDY/GELATO",
+            "candy/gelato"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Candy/Gelato"
+        },
+        {
+          "from": [
+            "CHURCH",
+            "Church"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Church"
+        },
+        {
+          "from": [
+            "Mobile Frozen Desserts Vendor",
+            "MOBILE FROZEN DESSERTS VENDOR"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Mobile Frozen Desserts Vendor"
+        },
+        {
+          "from": [
+            "LIVE POULTRY",
+            "Live Poultry"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Live Poultry"
+        },
+        {
+          "from": [
+            "GROCERY STORE / GAS STATION",
+            "GAS STATION/ GROCERY STORE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Grocery Store/Gas Station"
+        },
+        {
+          "from": [
+            "THEATER",
+            "theater"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Theater"
+        },
+        {
+          "from": [
+            "tavern/restaurant",
+            "TAVERN/RESTAURANT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Tavern/Restaurant"
+        },
+        {
+          "from": [
+            "KIDS CAFE",
+            "Kids Cafe'"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Kids Cafe'"
+        },
+        {
+          "from": [
+            "newsstand",
+            "NEWSSTAND"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Newsstand"
+        },
+        {
+          "from": [
+            "bakery/restaurant",
+            "BAKERY/RESTAURANT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Bakery/Restaurant"
+        },
+        {
+          "from": [
+            "COMMISSARY",
+            "Commissary"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Commissary"
+        }
+      ],
+      "description": "Mass edit cells in column Facility Type"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Facility Type",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "GROCERY STORE/GAS STATION",
+            "Grocery Store/Gas Station"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Grocery Store/Gas Station"
+        }
+      ],
+      "description": "Mass edit cells in column Facility Type"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Facility Type",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "1023 CHILDERN'S SERVICES FACILITY",
+            "1023 CHILDERN'S SERVICE S FACILITY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "1023 CHILDERN'S SERVICES FACILITY"
+        },
+        {
+          "from": [
+            "MOBILE FROZEN DESSERTS DISPENSER-NON-MOTORIZED",
+            "MOBILE FROZEN DESSERTS DISPENSER-NON- MOTORIZED"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "MOBILE FROZEN DESSERTS DISPENSER-NON-MOTORIZED"
+        },
+        {
+          "from": [
+            "DAYCARE 1023",
+            "DAY CARE 1023"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "DAYCARE 1023"
+        },
+        {
+          "from": [
+            "FROZEN DESSERTS DISPENSER -NON MOTORIZED",
+            "FROZEN DESSERTS DISPENSER-NON-MOTORIZED"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "FROZEN DESSERTS DISPENSER -NON MOTORIZED"
+        },
+        {
+          "from": [
+            "GAS STATION/STORE",
+            "GAS STATION STORE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "GAS STATION/STORE"
+        },
+        {
+          "from": [
+            "GROCERY STORE/ RESTAURANT",
+            "GROCERY STORE/RESTAURANT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "GROCERY STORE/ RESTAURANT"
+        },
+        {
+          "from": [
+            "DAYCARE",
+            "DAY CARE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "DAYCARE"
+        },
+        {
+          "from": [
+            "ROOF TOPS",
+            "ROOFTOPS"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ROOF TOPS"
+        },
+        {
+          "from": [
+            "1023-CHILDREN'S SERVICES FACILITY",
+            "1023 CHILDREN'S SERVICES FACILITY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "1023-CHILDREN'S SERVICES FACILITY"
+        },
+        {
+          "from": [
+            "Long Term Care",
+            "Long-Term Care"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Long Term Care"
+        },
+        {
+          "from": [
+            "CHARTER SCHOOL CAFETERIA",
+            "CHARTER SCHOOL/CAFETERIA"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "CHARTER SCHOOL CAFETERIA"
+        },
+        {
+          "from": [
+            "Daycare Combo 1586",
+            "Day Care Combo (1586)"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Daycare Combo 1586"
+        },
+        {
+          "from": [
+            "GAS STATION /GROCERY",
+            "GAS STATION/GROCERY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "GAS STATION /GROCERY"
+        },
+        {
+          "from": [
+            "ROOFTOP",
+            "ROOF TOP"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ROOFTOP"
+        },
+        {
+          "from": [
+            "Wrigley Roof Top",
+            "WRIGLEY ROOFTOP"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Wrigley Roof Top"
+        },
+        {
+          "from": [
+            "Long Term Care Facility",
+            "Long-Term Care Facility"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Long Term Care Facility"
+        },
+        {
+          "from": [
+            "GROCERY/RESTAURANT",
+            "Grocery & Restaurant"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "GROCERY/RESTAURANT"
+        },
+        {
+          "from": [
+            "Bakery/Restaurant",
+            "BAKERY/ RESTAURANT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Bakery/Restaurant"
+        },
+        {
+          "from": [
+            "Assisted Living",
+            "ASSISSTED LIVING"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Assisted Living"
+        }
+      ],
+      "description": "Mass edit cells in column Facility Type"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Facility Type",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Children's Services Facility",
+            "1023 CHILDERN'S SERVICES FACILITY",
+            "1023-CHILDREN'S SERVICES FACILITY",
+            "CHILDERN'S SERVICES  FACILITY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Children's Services Facility"
+        },
+        {
+          "from": [
+            "DAYCARE",
+            "DAYCARE 1023",
+            "DAY CARE 2-14",
+            "DAYCARE 1586"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "DAYCARE"
+        },
+        {
+          "from": [
+            "HERBALIFE",
+            "Herabalife",
+            "HERBAL LIFE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "HERBALIFE"
+        },
+        {
+          "from": [
+            "Mobile Prepared Food Vendor",
+            "MOBILPREPARED FOOD VENDOR"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Mobile Prepared Food Vendor"
+        },
+        {
+          "from": [
+            "Tavern",
+            "TAVERN/1006"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Tavern"
+        },
+        {
+          "from": [
+            "NURSING HOME",
+            "1005 NURSING HOME"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "NURSING HOME"
+        },
+        {
+          "from": [
+            "MOVIE THEATER",
+            "MOVIE THEATRE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "MOVIE THEATER"
+        },
+        {
+          "from": [
+            "Commissary",
+            "COMMIASARY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Commissary"
+        },
+        {
+          "from": [
+            "Convenience Store",
+            "CONVNIENCE STORE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Convenience Store"
+        },
+        {
+          "from": [
+            "MOBILE FOOD",
+            "MOBIL FOOD 1315"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "MOBILE FOOD"
+        },
+        {
+          "from": [
+            "Shared Kitchen User (Long Term)",
+            "SHARED KITCHEN USER (LONG TREM)"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Shared Kitchen User (Long Term)"
+        },
+        {
+          "from": [
+            "Daycare Combo 1586",
+            "DAYCARE COMBO"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Daycare Combo 1586"
+        },
+        {
+          "from": [
+            "1023 CHILDERN'S SERVICE FACILITY",
+            "CHILDERN'S SERVICE FACILITY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "1023 CHILDERN'S SERVICE FACILITY"
+        },
+        {
+          "from": [
+            "Theater",
+            "THEATRE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Theater"
+        }
+      ],
+      "description": "Mass edit cells in column Facility Type"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Facility Type",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "MOBILE DESSERTS VENDOR",
+            "MOBILE DESSERT VENDOR"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "MOBILE DESSERTS VENDOR"
+        },
+        {
+          "from": [
+            "Mobile Frozen Desserts Vendor",
+            "Mobile Frozen Dessert Vendor"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Mobile Frozen Desserts Vendor"
+        },
+        {
+          "from": [
+            "CHURCH/SPECIAL EVENTS",
+            "CHURCH/SPECIAL EVENT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "CHURCH/SPECIAL EVENTS"
+        },
+        {
+          "from": [
+            "Banquet rooms",
+            "BANQUET ROOM"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Banquet rooms"
+        },
+        {
+          "from": [
+            "Banquet",
+            "banquets"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Banquet"
+        },
+        {
+          "from": [
+            "RESTAURANT/BAR",
+            "Reataurant/Bar"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "RESTAURANT/BAR"
+        }
+      ],
+      "description": "Mass edit cells in column Facility Type"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Facility Type",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "MOBILE FROZEN DESSERTS DISPENSER-NON-MOTORIZED",
+            "MOBILE FROZEN DESSERTS DISPENSER-NON-MOTOR"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "MOBILE FROZEN DESSERTS DISPENSER-NON-MOTORIZED"
+        },
+        {
+          "from": [
+            "RESTAURANT/GROCERY STORE",
+            "RESTAURANT/GROCERY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "RESTAURANT/GROCERY STORE"
+        },
+        {
+          "from": [
+            "CULINARY SCHOOL",
+            "CULINARY ARTS SCHOOL"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "CULINARY SCHOOL"
+        },
+        {
+          "from": [
+            "DRUG STORE/GROCERY",
+            "DRUG/GROCERY STORE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "DRUG STORE/GROCERY"
+        },
+        {
+          "from": [
+            "RESTAURANT/GAS STATION",
+            "GAS STATION/RESTAURANT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "RESTAURANT/GAS STATION"
+        },
+        {
+          "from": [
+            "HERBALCAL",
+            "HERBAL"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "HERBALCAL"
+        },
+        {
+          "from": [
+            "GROCERY/SERVICE GAS STATION",
+            "SERVICE GAS STATION"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "GROCERY/SERVICE GAS STATION"
+        },
+        {
+          "from": [
+            "MOBILE DESSERTS VENDOR",
+            "MOBILE FOOD DESSERTS VENDOR"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "MOBILE DESSERTS VENDOR"
+        }
+      ],
+      "description": "Mass edit cells in column Facility Type"
+    },
+    {
+      "op": "core/row-removal",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "Facility Type",
+            "expression": "value",
+            "columnName": "Facility Type",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "description": "Remove rows"
+    },
+    {
+      "op": "core/row-removal",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "Violations",
+            "expression": "value",
+            "columnName": "Violations",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          },
+          {
+            "type": "range",
+            "name": "Violations",
+            "expression": "grel:facetCount(value, \"value\", \"Violations\")",
+            "columnName": "Violations",
+            "from": 25000,
+            "to": 27000,
+            "selectNumeric": true,
+            "selectNonNumeric": true,
+            "selectBlank": true,
+            "selectError": true
+          }
+        ],
+        "mode": "row-based"
+      },
+      "description": "Remove rows"
+    }
+]
